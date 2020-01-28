@@ -1,1 +1,2 @@
-This website is a portfolio project
+This website is a non-profit portfolio project.
+Pokemon &copy; Nintendo

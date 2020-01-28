@@ -23,6 +23,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     grid-template-columns: 15vw 70vw 15vw;
     width: 100vw;
     height: 100vh;
+    background-image: linear-gradient(#fff, rgb(184, 207, 224));
 }
 
 header{

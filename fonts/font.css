@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Futura-Thin';
+    src: url('Futura-Thin.eot');
+    src: url('Futura-Thin.eot?#iefix') format('embedded-opentype'),
+         url('Futura-Thin.woff2') format('woff2');
+    src: url('Futura-Thin.svg#Futura-Thin') format('svg'),
+         url('Futura-Thin.ttf') format('truetype'),
+         url('Futura-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+  font-family: 'moon_get';
+  src: url('moon_get-Heavy.eot');
+  src: url('moon_get-Heavy.eot?#iefix') format('embedded-opentype'),
+       url('moon_get-Heavy.svg#moon_get-Heavy') format('svg'),
+       url('moon_get-Heavy.ttf') format('truetype'),
+       url('moon_get-Heavy.woff') format('woff'),
+       url('moon_get-Heavy.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

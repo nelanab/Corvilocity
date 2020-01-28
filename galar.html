@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Galar
+        </title>
+        <link type="text/css" href="css/home.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="fonts/font.css">
+        <script src="https://kit.fontawesome.com/c17a17debf.js" crossorigin="anonymous"></script>
+        <style>
+            #home_page{
+                background-image: url("images/field.jpg");
+                background-size: cover;
+            }
+
+            #title:hover{
+                color: rgb(241, 194, 37);
+            }
+
+            .nav_title:hover{
+                background-color: rgba(56, 7, 36, 0.2);
+            }
+
+            #media_box{
+                background-color: rgba(56, 7, 36, 0.2);
+            }
+
+            .fab:hover{
+                color: rgb(241, 194, 37);
+            }
+
+            #landing_footer{
+                background-image: linear-gradient(rgba(56, 7, 36, 0), rgba(56, 7, 36, 0.6));
+            }
+
+            footer{
+                background-color: rgb(0, 116, 96);
+            }
+        </style>
+    </head>
+    <body>
+        <main id="home_page">
+            <!-- Page Navigation Bar -->
+            <div id="navigation">
+                <a href="corvilocity.html">
+                    <h2 id="title">Corvilocity</h2>
+                </a>
+                <div class="nav_title"><h3>Home</h3></div>
+                <div class="nav_title"><h3>Travel</h3></div>
+                <div class="nav_title"><h3>Board</h3></div>
+                <div class="nav_title"><h3>Pok&eacute;mon</h3></div>
+
+                <!-- Social Media Container -->
+                <div id="media_box">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div id="landing_page">
+                <div id="landing_title" data-depth="0.2">
+                    <div>
+                        <h2>Travel to</h2>
+                    </div>
+                    <div>
+                        <h1>Galar</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div id="landing_footer">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </main>
+
+        <div id="box_art">
+            <img src="" alt="box cover art for Pokemon Sword">
+            <img src="" alt="box cover art for Pokemon Shield">
+        </div>
+                   
+    </body>
+
+    <script src="javascript/parallax.js"></script>
+    <script>
+        var scene = document.getElementById('landing_page');
+        var parallaxInstance = new Parallax(landing_page);
+    </script>
+
+</html>

@@ -1,0 +1,146 @@
+/* Cancel Default Styling */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    margin:0;
+    padding:0;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+#home_page{
+    display: grid;
+    grid-template-rows: 15vh 70vh 15vh;
+    grid-template-columns: 15vw 70vw 15vw;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    clear: both;
+}
+
+#title{
+    font-family: moon_get;
+    font-size: 3em;
+    padding-top: 5vh;
+}
+
+#region_boxes{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3vmax;
+}
+
+.box{
+    width: 14vmax;
+    height: 14vmax;
+    float: left;
+    margin: 1vmax;
+    text-align: center;
+    box-shadow: inset 0 0 0 100vmax rgba(8, 68, 60, 0.3);
+    transition: ease-in-out .3s;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    box-shadow: inset 0 0 0 100vmax rgba(112, 255, 236, 0);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(3, 31, 28);
+    transition: ease-in-out .3s;
+}
+
+h1:hover{
+    color: rgb(255, 177, 9);
+}
+
+h2{
+    margin: auto;
+    padding-top: 6.75vmax;
+    color: white;
+    font-size: 1.75em;
+    font-family: moon_get;
+    letter-spacing: .05em;
+}
+
+#kanto{
+    background-image: url("../images/mount_fuji.jpg");
+    background-size: cover;
+}
+
+#johto{
+    background-image: url("../images/temple.jpg");
+    background-size: cover;
+}
+
+#hoenn{
+    background-image: url("../images/lake.jpg");
+    background-size: cover;
+}
+
+#sinnoh{
+    background-image: url("../images/mountain_web.jpg");
+    background-size: cover;
+}
+
+#unova{
+    background-image: url("../images/city.jpg");
+    background-size: cover;
+}
+
+#kalos{
+    background-image: url("../images/street.jpg");
+    background-size: cover;
+}
+
+#alola{
+    background-image: url("../images/beach.jpg");
+    background-size: cover;
+}
+
+#galar{
+    background-image: url("../images/field.jpg");
+    background-size: cover;
+}
+
+footer{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 2vmax;
+    align-items: flex-end;
+    font-family: Futura-Thin;
+    font-size: 1.05em;
+}

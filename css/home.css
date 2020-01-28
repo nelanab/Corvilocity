@@ -1,0 +1,269 @@
+/* Cancel Default Styling */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    margin:0;
+    padding:0;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+/* Landing Page Background Styling */
+#home_page{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 15vh 70vh 15vh auto;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Navigation Styling */
+#navigation{
+    display: flex;
+    grid-column-start: 1; 
+    grid-column-end: 4;
+    grid-row-start: 1; 
+    grid-row-end: 2;
+    color: white;
+    padding-left: 7.2vmax;
+    padding-right: 7.2vmax;
+    justify-content: space-between;
+    float: left;
+}
+
+#title{
+    font-family: moon_get;
+    font-size: 2.25em;
+    padding-top: 4.25vh;
+    transition: ease-in-out .3s;
+    color: white;
+}
+
+.nav_title{
+    font-family: Futura-Thin;
+    font-size: 1.75em;
+    margin-top: 4.5vh;
+    height: 40px;
+    background-color: rgba(0, 27, 116, 0);
+    border-radius: 2vmax;
+    transition: ease-in-out .3s;
+    padding-top: .5vmax;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+}
+
+.nav_title:hover{
+    padding-left: 2vmax;
+    padding-right: 2vmax;
+}
+
+a{
+    text-decoration: none;
+}
+
+#media_box{
+    font-size: 1.75vmax;
+    height: 3.5vmax;
+    width: 8vmax;
+    text-align: center;
+    margin-top: 4vh;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    border-radius: 2vmax;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+}
+
+.fab{
+    padding-top: 1vmax;
+    vertical-align: middle;
+    display: inline-block;
+    transition: ease-in-out .3s;
+}
+
+/* Landing Page Styling */
+#landing_page{
+    grid-column-start: 1; 
+    grid-column-end: 4;
+    grid-row-start: 2; 
+    grid-row-end: 3;
+    color: white;
+    padding-left: 7.2vmax;
+    margin-top: 10%;
+    overflow: hidden;
+    padding-top: 1vmax;
+}
+
+#cities{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    color: white;
+    padding-left: 4vw;
+}
+
+h2{
+    font-family: Futura-Thin;
+    font-size: 2.5em;
+    padding-left: 1vmax;
+}
+
+h1{
+    font-family: moon_get;
+    padding-top: 1vmax;
+    font-size: 9vmax;
+}
+
+h4{
+    font-family: moon_get;
+    font-size: 2.5em;
+    padding-top: 4.25vh;
+    padding-left: 5vw;
+    letter-spacing: 0.05em;
+    color: white;
+    padding-bottom: 2vmax;
+}
+
+h5{
+    font-family: Futura-Thin;
+    font-size: 2em;
+    color: white;
+}
+
+/* Landing Footer Styling */
+#landing_footer{
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3; 
+    grid-row-end: 4;
+}
+
+.fas{
+    padding-top: 6vh;
+    transition: ease-in-out .3s;
+}
+
+.fas:hover{
+    -webkit-transform:scale(1.25, 1.0);
+    -moz-transform:scale(1.25, 1.0);
+    -ms-transform:scale(1.25, 1.0);
+    -o-transform:scale(1.25, 1.0);
+    transform:scale(1.25, 1.0);
+}
+
+/* City Section Styling */
+
+.city{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12vw;
+    margin-top: 2vmax;
+    padding-bottom: 2vmax;
+    padding-right: 12vw;
+}
+
+p{
+    font-size: 1.5em;
+    font-family: Futura-Thin;
+    padding-left: 1vw;
+    color: white;
+}
+
+#box_art{
+    height: 40vh;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4vmax;
+    background-image: url("../images/LottesGrain5.png");
+}
+
+/* Pokemon Section Styling */
+#pokemon{
+    padding-top: 2vh;
+    padding-left: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#pokemon_header{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#pokemon_header img{
+    height: 4vmax;
+}
+
+#pokemon h4{
+    width: 100%;
+}
+
+.poke_desc img{
+    height: 9.5vmax;
+    width: auto;
+}
+
+#poke_containers{
+    margin-top: 2vmax;
+    padding-left: 8vw;
+    padding-right: 12vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#pokemon_name{
+    margin-right: 1vmax;
+}
+
+.poke_desc{
+    margin-top: 2vmax;
+    width: 16vw;
+    padding: 2vmax;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1vmax;
+    margin: 2vmax;
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    align-items: center;
+    font-family: Futura-Thin;
+    font-size: 1.05em;
+    background-image: url("../images/LottesGrain5.png")
+}
+
+footer p{
+    font-family: Futura-Thin;
+    font-size: 1.05em;
+    color: white;
+}

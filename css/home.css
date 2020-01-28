@@ -237,6 +237,10 @@ p{
     margin-right: 1vmax;
 }
 
+#pokemon_name p{
+    font-size: 1em;
+}
+
 .poke_desc{
     margin-top: 2vmax;
     width: 16vw;

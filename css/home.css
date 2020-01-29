@@ -168,14 +168,28 @@ h5{
 }
 
 /* City Section Styling */
+#cities_header{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#cities_header img{
+    height: 4vmax;
+}
 
 .city{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left: 12vw;
     margin-top: 2vmax;
     padding-bottom: 2vmax;
     padding-right: 12vw;
+}
+
+.city img{
+    height: 300px;
 }
 
 p{
@@ -185,6 +199,7 @@ p{
     color: white;
 }
 
+/* Box art section styling */
 #box_art{
     height: 40vh;
     width: 100%;
@@ -193,7 +208,11 @@ p{
     display: flex;
     justify-content: space-evenly;
     padding-top: 4vmax;
-    background-image: url("../images/LottesGrain5.png");
+}
+
+#box_art img{
+    height: 400px;
+    width: auto;
 }
 
 /* Pokemon Section Styling */
@@ -203,6 +222,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    padding-bottom: 4vh;
 }
 
 #pokemon_header{
@@ -220,8 +240,10 @@ p{
 }
 
 .poke_desc img{
-    height: 9.5vmax;
+    height: 100px;
     width: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #poke_containers{
@@ -235,10 +257,6 @@ p{
 
 #pokemon_name{
     margin-right: 1vmax;
-}
-
-#pokemon_name p{
-    font-size: 1em;
 }
 
 .poke_desc{
@@ -263,7 +281,7 @@ footer{
     align-items: center;
     font-family: Futura-Thin;
     font-size: 1.05em;
-    background-image: url("../images/LottesGrain5.png")
+    padding-bottom: 2vh;
 }
 
 footer p{

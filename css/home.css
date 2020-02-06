@@ -125,11 +125,19 @@ h5{
     color: white;
 }
 
+.city h5{
+    font-size: 3em;
+}
+
 p{
     font-size: 1.5em;
     font-family: Futura-Thin;
     padding-left: 1vw;
     color: white;
+}
+
+.city p{
+    font-size: 2em;
 }
 
 a{
@@ -176,12 +184,17 @@ a{
     grid-row-end: 5;
     color: white;
     padding-left: 4vw;
+    padding-right: 4vw;
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 2vmax;
 }
 
 #cities_header{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    width: 100%;
 }
 
 #cities_header img{
@@ -192,15 +205,25 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 12vw;
+    padding-left: 2vw;
     margin-top: 2vmax;
     padding-bottom: 2vmax;
-    padding-right: 12vw;
+    padding-right: 2vw;
+    align-items: center;
+    padding-top: 2vmax;
+    border-radius: 10px;
+    width: 38vw;
+    margin-left: 2vmax;
+}
+
+.city_desc{
+    padding-bottom: 4vmax;
 }
 
 .city img{
     height: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-left: 2vmax;
 }
 
 /* Pokemon Section Styling */
@@ -229,9 +252,6 @@ a{
 
 .poke_desc img{
     height: 100px;
-    width: auto;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 #poke_containers{
@@ -271,7 +291,7 @@ a{
 }
 
 #box_art img{
-    height: 400px;
+    height: 275px;
     width: auto;
 }
 

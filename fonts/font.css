@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Futura-Thin';
-    src: url('Futura-Thin.eot');
-    src: url('Futura-Thin.eot?#iefix') format('embedded-opentype'),
-         url('Futura-Thin.woff2') format('woff2');
-    src: url('Futura-Thin.svg#Futura-Thin') format('svg'),
-         url('Futura-Thin.ttf') format('truetype'),
-         url('Futura-Thin.woff') format('woff');
+    font-family: ''Open Sans', sans-serif';
+    src: url(''Open Sans', sans-serif.eot');
+    src: url(''Open Sans', sans-serif.eot?#iefix') format('embedded-opentype'),
+         url(''Open Sans', sans-serif.woff2') format('woff2');
+    src: url(''Open Sans', sans-serif.svg#'Open Sans', sans-serif') format('svg'),
+         url(''Open Sans', sans-serif.ttf') format('truetype'),
+         url(''Open Sans', sans-serif.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }

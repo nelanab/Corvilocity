@@ -51,14 +51,14 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 }
 
 .nav_title{
-    font-family: Futura-Thin;
-    font-size: 1.75em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
     margin-top: 4.5vh;
     height: 40px;
     background-color: rgba(0, 27, 116, 0);
     border-radius: 2vmax;
     transition: ease-in-out .3s;
-    padding-top: .5vmax;
+    padding-top: .75vmax;
     padding-left: 1vmax;
     padding-right: 1vmax;
 }
@@ -104,7 +104,7 @@ h1{
 }
 
 h2{
-    font-family: Futura-Thin;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2.5em;
     padding-left: 1vmax;
 }
@@ -120,7 +120,7 @@ h4{
 }
 
 h5{
-    font-family: Futura-Thin;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2em;
     color: white;
 }
@@ -131,14 +131,12 @@ h5{
 
 p{
     font-size: 1.5em;
-    font-family: Futura-Thin;
+    font-family: 'Open Sans', sans-serif;
     padding-left: 1vw;
     color: white;
 }
 
-.city p{
-    font-size: 2em;
-}
+
 
 a{
     text-decoration: none;
@@ -214,6 +212,10 @@ a{
     border-radius: 10px;
     width: 38vw;
     margin-left: 2vmax;
+}
+
+.city p{
+    font-size: 2em;
 }
 
 .city_desc{
@@ -304,13 +306,13 @@ footer{
     padding-left: 30vw;
     padding-right: 30vw;
     align-items: center;
-    font-family: Futura-Thin;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.05em;
     padding-bottom: 2vh;
 }
 
 footer p{
-    font-family: Futura-Thin;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.05em;
     color: white;
 }

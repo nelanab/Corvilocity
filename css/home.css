@@ -98,10 +98,6 @@ h1{
     text-align: center;
 }
 
-.regionName{
-    h2: 
-}
-
 .blur{
     backdrop-filter: blur(2px);
     width: 100%;
@@ -208,7 +204,17 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-size: 2vw;
     width: 100%;
-    margin-top: 1vh;
+    margin-top: .5vh;
+}
+
+.socialIcons{
+    height: 2vh;
+    margin-top: .5vh;
+}
+
+a{
+    text-decoration: none;
+    height: 2vh;
 }
 
 /* Open Sans is: font-family: 'Open Sans', sans-serif */

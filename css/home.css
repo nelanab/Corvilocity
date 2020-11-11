@@ -1,4 +1,3 @@
-/* Cancel Default Styling */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
     border:0;
     outline:0;
@@ -17,302 +16,190 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
-/* Landing Page Background Styling */
-#home_page{
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 15vh 70vh 15vh auto;
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px #00cc99;*/
+    background-color:  #0d1216;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    width: 18px;
+    border-radius: 50px;
+}
+
+body{
+    font-family: 'Fredoka One', cursive;
+    background-image: url("data:image/svg+xml,%3Csvg width='375' height='812' viewBox='0 0 375 812' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0' mask-type='alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='375' height='812'%3E%3Crect width='375' height='812' fill='%23C4C4C4'/%3E%3C/mask%3E%3Cg mask='url(%23mask0)'%3E%3Cpath d='M31.4287 -8V200.931M70.5361 -8V200.931M109.644 -8V200.931M148.751 -8V200.931M-14.468 148.664H194.468M-14.468 109.556H194.468M-14.468 70.4436H194.468M-14.468 31.3361H194.468M188 -8H-7.99999V188M188 -8V188M188 -8H384V188M188 188H-7.99999M188 188H384M188 188V384M-7.99999 188V384M227.429 -8V200.931M266.536 -8V200.931M305.644 -8V200.931M344.751 -8V200.931M181.532 148.664H390.468M181.532 109.556H390.468M181.532 70.4436H390.468M181.532 31.3361H390.468M384 188V384M31.4287 188V396.931M70.5361 188V396.931M109.644 188V396.931M148.751 188V396.931M-14.468 344.664H194.468M-14.468 305.556H194.468M-14.468 266.444H194.468M-14.468 227.336H194.468M188 384H-7.99999M188 384V580M188 384H384M-7.99999 384V580M31.4287 384V592.931M70.5361 384V592.931M109.644 384V592.931M148.751 384V592.931M-14.468 540.664H194.468M-14.468 501.556H194.468M-14.468 462.444H194.468M-14.468 423.336H194.468M188 580H-7.99999M188 580V776M188 580H384M-7.99999 580V776M31.4287 580V788.931M70.5361 580V788.931M109.644 580V788.931M148.751 580V788.931M-14.468 736.664H194.468M-14.468 697.556H194.468M-14.468 658.444H194.468M-14.468 619.336H194.468M188 776H-7.99999M188 776H384M188 776V972M-7.99999 776V972H188M227.429 188V396.931M266.536 188V396.931M305.644 188V396.931M344.751 188V396.931M181.532 344.664H390.468M181.532 305.556H390.468M181.532 266.444H390.468M181.532 227.336H390.468M384 384V580M227.429 384V592.931M266.536 384V592.931M305.644 384V592.931M344.751 384V592.931M181.532 540.664H390.468M181.532 501.556H390.468M181.532 462.444H390.468M181.532 423.336H390.468M384 580V776M227.429 580V788.931M266.536 580V788.931M305.644 580V788.931M344.751 580V788.931M181.532 736.664H390.468M181.532 697.556H390.468M181.532 658.444H390.468M181.532 619.336H390.468M384 776V972H188M31.4287 776V984.931M70.5361 776V984.931M109.644 776V984.931M148.751 776V984.931M-14.468 932.664H194.468M-14.468 893.556H194.468M-14.468 854.444H194.468M-14.468 815.336H194.468M227.429 776V984.931M266.536 776V984.931M305.644 776V984.931M344.751 776V984.931M181.532 932.664H390.468M181.532 893.556H390.468M181.532 854.444H390.468M181.532 815.336H390.468M1.14441e-05 0H375V812H1.14441e-05V0Z' stroke='url(%23paint0_linear)' stroke-miterlimit='10'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='188' y1='-8' x2='188' y2='984.931' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0.09375' stop-color='%23DA1E42'/%3E%3Cstop offset='0.369792' stop-color='%23F28705'/%3E%3Cstop offset='0.614583' stop-color='%235DA776'/%3E%3Cstop offset='0.885417' stop-color='%230367A5'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E ");
+    background-size: cover;
     position: relative;
-    overflow-x: hidden;
-}
-
-/* Navigation Styling */
-#navigation{
-    display: flex;
-    grid-column-start: 1; 
-    grid-column-end: 4;
-    grid-row-start: 1; 
-    grid-row-end: 2;
-    color: white;
-    padding-left: 7.2vmax;
-    padding-right: 7.2vmax;
-    justify-content: space-between;
-    float: left;
-}
-
-#title{
-    font-family: moon_get;
-    font-size: 2.25em;
-    padding-top: 4.25vh;
-    transition: ease-in-out .3s;
-    color: white;
-}
-
-.nav_title{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5em;
-    margin-top: 4.5vh;
-    height: 40px;
-    background-color: rgba(0, 27, 116, 0);
-    border-radius: 2vmax;
-    transition: ease-in-out .3s;
-    padding-top: .75vmax;
-    padding-left: 1vmax;
-    padding-right: 1vmax;
-}
-
-.nav_title:hover{
-    padding-left: 2vmax;
-    padding-right: 2vmax;
-}
-
-/* Social Media Box Styling */
-#media_box{
-    font-size: 1.75vmax;
-    height: 3.5vmax;
-    width: 8vmax;
-    text-align: center;
-    margin-top: 4vh;
-    display: flex;
-    float: left;
-    justify-content: space-around;
-    border-radius: 2vmax;
-    padding-left: 1vmax;
-    padding-right: 1vmax;
-}
-
-/* Landing Page Styling */
-#landing_page{
-    grid-column-start: 1; 
-    grid-column-end: 4;
-    grid-row-start: 2; 
-    grid-row-end: 3;
-    color: white;
-    padding-left: 7.2vmax;
-    margin-top: 10%;
+    letter-spacing: .06em;
     overflow: hidden;
-    padding-top: 1vmax;
 }
 
-/* Font Styling */
+header{
+    background-color: #DA1E42;
+    width: 100%;
+    height: 11vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
 h1{
-    font-family: moon_get;
-    padding-top: 1vmax;
-    font-size: 9vmax;
+    font-size: 10vw;
+    margin-top: 3vh;
+    margin-left: 4vw;
 }
 
-h2{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5em;
-    padding-left: 1vmax;
+#navigation{
+    height: 78vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
 }
 
-h4{
-    font-family: moon_get;
-    font-size: 2.5em;
-    padding-top: 4.25vh;
-    padding-left: 5vw;
-    letter-spacing: 0.05em;
+.regionBox{
+    width: 44vw;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6%;
+    border-style: solid;
+    border-width: 0.5vmax;
     color: white;
-    padding-bottom: 2vmax;
+    font-size: 7vw;
+    z-index: 1;
+    position: relative;
+    background-size: cover;
 }
 
-h5{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2em;
+.picOverlay{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+}
+
+.regionName{
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+    text-align: center;
+}
+
+#kantoBox{
+    background-image:url(../images/mount_fuji.jpg);
+    background-position: right;
+    border-color: #da1e41;
+}
+
+#kantoOverlay{
+    background-color: #da1e41;
+}
+
+#johtoBox{
+    background-image: url(../images/temple.jpg);
+    background-position: right;
+    border-color: #da1e41;
+}
+
+#johtoOverlay{
+    background-color: #da1e41;
+}
+
+#hoennBox{
+    background-image: url(../images/lake.jpg);
+    background-position: right;
+    border-color: #F28705;
+}
+
+#hoennOverlay{
+    background-color: #F28705;
+}
+
+#sinnohBox{
+    background-image: url(../images/mountain_web.jpg);
+    background-position: right;
+    border-color: #F28705;
+}
+
+#sinnohOverlay{
+    background-color: #F28705;
+}
+
+#unovaBox{
+    background-image: url(../images/city.jpg);
+    background-position: center;
+    border-color: #5DA776;
+}
+
+#unovaOverlay{
+    background-color: #5DA776;
+}
+
+#kalosBox{
+    background-image: url(../images/french_street.jpg);
+    border-color: #5DA776;
+}
+
+#kalosOverlay{
+    background-color: #5DA776;
+}
+
+#alolaBox{
+    background-image: url(../images/beach.jpg);
+    border-color: #0367A5;
+    position: right;
+}
+
+#alolaOverlay{
+    background-color: #0367A5;
+}
+
+#galarBox{
+    background-image: url(../images/field.jpg);
+    border-color: #0367A5;
+}
+
+#galarOverlay{
+    background-color: #0367A5;
+}
+
+footer{
+    background-color: #0367A5;
+    width: 100%;
+    height: 11vh;
     color: white;
+    text-align: center;
+    padding-top: 1vh;
+    overflow: hidden;
 }
 
-.city h5{
-    font-size: 3em;
+#unown{
+    font-family: 'Unown';
+    font-size: 5vw;
+    margin-top: 1vh;
 }
 
 p{
-    font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
-    padding-left: 1vw;
-    color: white;
-}
-
-
-
-a{
-    text-decoration: none;
-}
-
-.fab{
-    padding-top: 1vmax;
-    vertical-align: middle;
-    display: inline-block;
-    transition: ease-in-out .3s;
-}
-
-/* Chevron Styling */
-.fas{
-    padding-top: 6vh;
-    transition: ease-in-out .3s;
-}
-
-.fas:hover{
-    -webkit-transform:scale(1.25, 1.0);
-    -moz-transform:scale(1.25, 1.0);
-    -ms-transform:scale(1.25, 1.0);
-    -o-transform:scale(1.25, 1.0);
-    transform:scale(1.25, 1.0);
-}
-
-/* Landing Footer Styling */
-#landing_footer{
-    text-align: center;
-    color: white;
-    font-size: 2.5em;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 3; 
-    grid-row-end: 4;
-}
-
-/* City Section Styling */
-#cities{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    color: white;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    flex-wrap: wrap;
-    display: flex;
-    padding-top: 2vmax;
-}
-
-#cities_header{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
+    font-size: 2vw;
     width: 100%;
+    margin-top: 1vh;
 }
 
-#cities_header img{
-    height: 4vmax;
-}
-
-.city{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 2vw;
-    margin-top: 2vmax;
-    padding-bottom: 2vmax;
-    padding-right: 2vw;
-    align-items: center;
-    padding-top: 2vmax;
-    border-radius: 10px;
-    width: 38vw;
-    margin-left: 2vmax;
-}
-
-.city p{
-    font-size: 2em;
-}
-
-.city_desc{
-    padding-bottom: 4vmax;
-}
-
-.city img{
-    height: 300px;
-    border-radius: 10px;
-    margin-left: 2vmax;
-}
-
-/* Pokemon Section Styling */
-#pokemon{
-    padding-top: 2vh;
-    padding-left: 4vw;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    padding-bottom: 4vh;
-}
-
-#pokemon_header{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-#pokemon_header img{
-    height: 4vmax;
-}
-
-#pokemon h4{
-    width: 100%;
-}
-
-.poke_desc img{
-    height: 100px;
-}
-
-#poke_containers{
-    margin-top: 2vmax;
-    padding-left: 8vw;
-    padding-right: 12vw;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-#pokemon_name{
-    margin-right: 1vmax;
-}
-
-.poke_desc{
-    margin-top: 2vmax;
-    width: 16vw;
-    padding: 2vmax;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 1vmax;
-    margin: 2vmax;
-}
-
-/* Box art section styling */
-#box_art{
-    height: 40vh;
-    width: 100%;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 4vmax;
-}
-
-#box_art img{
-    height: 275px;
-    width: auto;
-}
-
-/* Footer Styling */
-footer{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    display: flex;
-    justify-content: space-around;
-    padding-left: 30vw;
-    padding-right: 30vw;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.05em;
-    padding-bottom: 2vh;
-}
-
-footer p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.05em;
-    color: white;
-}
+/* Open Sans is: font-family: 'Open Sans', sans-serif */

@@ -2,73 +2,82 @@
 <html lang="en">
     <head>
         <title>Corvilocity</title>
-        <link type="text/css" rel="stylesheet" href="css/corvilocity.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="fonts/font.css">
+        <link type="text/css" rel="stylesheet" href="css/home.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Corvilocity - Pokemon Travel Website">
+        <meta name="keywords" content="Pokemon, Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar">
+        <meta name="author" content="Ana Nelson">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Replace this --> 
+        <link rel="icon" href="images/placeholder.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="fonts/font.css">
+        <style>
+            body{
+                width: 100vw - var(--scrollbar-width);
+                height: 100%;
+            }
+        </style>
     </head>
 
-    <main id="home_page">
+    <body>
         <header>
-            <a href="corvilocity.html"><h1 id="title">Corvilocity</h1></a>
+            <h1>Corvilocity</h1>
         </header>
-        
-        <div id="region_boxes">
 
-            <!-- Region Boxes -->
+        <!-- Beginning of navigation section -->
+        <section id="navigation">                 
+            </div>
+            <section class="regionBox" id="kantoBox">
+                <h2 class="regionName">Kanto</h2>
+                <div class="picOverlay" id="kantoOverlay"></div>
+            </section>
 
-            <a href="kanto.html">
-                <div id="kanto" class="box">
-                    <h2>Kanto</h2>
-                </div>
-            </a>
+            <section class="regionBox" id="johtoBox">
+                <h2 class="regionName">Johto</h2>
+                <div class="picOverlay" id="johtoOverlay"></div>
+            </section>
 
-            <a href="johto.html">
-                <div id="johto" class="box">
-                    <h2>Johto</h2>
-                </div>
-            </a>
+            <section class="regionBox" id="hoennBox">
+                <h2 class="regionName">Hoenn</h2>
+                <div class="picOverlay" id="hoennOverlay"></div>
+            </section>
 
-            <a href="hoenn.html">
-                <div id="hoenn" class="box">
-                    <h2>Hoenn</h2>
-                </div>
-            </a>
+            <section class="regionBox" id="sinnohBox">
+                <h2 class="regionName">Sinnoh</h2>
+                <div class="picOverlay" id="sinnohOverlay"></div>
+            </section>
 
-            <a href="sinnoh.html">
-                <div id="sinnoh" class="box">
-                    <h2>Sinnoh</h2>
-                </div>
-            </a>
+            <section class="regionBox" id="unovaBox">
+                <h2 class="regionName">Unova</h2>
+                <div class="picOverlay" id="unovaOverlay"></div>
+            </section>
 
-            <a href="unova.html">
-                <div id="unova" class="box">
-                    <h2>Unova</h2>
-                </div>
-            </a>
+            <section class="regionBox" id="kalosBox">
+                <h2 class="regionName">Kalos</h2>
+                <div class="picOverlay" id="kalosOverlay"></div>
+            </section>
 
-            <a href="kalos.html">
-                <div id="kalos" class="box">
-                    <h2>Kalos</h2>
-                </div>
-            </a>
+            <section class="regionBox" id="alolaBox">
+                <h2 class="regionName">Alola</h2>
+                <div class="picOverlay" id="alolaOverlay"></div>
+            </section>
 
-            <a href="alola.html">
-                <div id="alola" class="box">
-                    <h2>Alola</h2>
-                </div>
-            </a>
-
-            <a href="galar.html">
-                <div id="galar" class="box">
-                    <h2>Galar</h2>
-                </div>
-            </a>
-            
-        </div>
+            <section class="regionBox" id="galarBox">
+                <h2 class="regionName">Galar</h2>
+                <div class="picOverlay" id="galarOverlay"></div>
+            </section>
+        </section> <!-- End of navigation section -->
 
         <footer>
-            <p>Website Design by Ana Nelson</p>
-            <p>Pok&eacute;mon &copy; Game Freak</p>
+            <p id="unown">POKEMON</p>
+            <p>Designed by Ana Nelson</p>
+            <p>Pokemon &#169; Game Freak</p>
         </footer>
-    </main>
+
+        <script>
+            document.documentElement.style.setProperty('--scrollbar-width', (window.innerWidth - document.documentElement.clientWidth) + "px");
+        </script>
+    </body>
+    
 </html>

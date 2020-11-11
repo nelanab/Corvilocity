@@ -39,7 +39,6 @@ body{
     background-size: cover;
     position: relative;
     letter-spacing: .06em;
-    overflow: hidden;
 }
 
 header{

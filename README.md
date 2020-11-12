@@ -1,2 +1,2 @@
 This website is a non-profit portfolio project.
-Pokemon &copy; Nintendo
+Pokemon &copy; Nintendo and Game Freak

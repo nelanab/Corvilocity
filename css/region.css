@@ -1,0 +1,158 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    margin:0;
+    padding:0;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px #00cc99;*/
+    background-color:  #0d1216;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    width: 18px;
+    border-radius: 50px;
+}
+
+body{
+    font-family: 'Fredoka One', cursive;
+    background-size: cover;
+    position: relative;
+    letter-spacing: 0.06em;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/mountain_web.jpg);
+    background-size: cover;
+    color: #F8F8F8;
+    overflow: hidden;
+    z-index: 3;
+}
+
+#gradient{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#da1e4100 60%, #DA1E42);
+}
+
+#parralax{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#parralax div{
+    width: 120%;
+    height: 110%;
+    margin-left: -10%;
+    margin-top: -2%;
+}
+
+#clouds{
+    position: absolute;
+    z-index: 3;
+    background-image: url(../images/sinnoh/parralax/clouds.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#mountain{
+    position: absolute;
+    z-index: 2;
+    background-image: url(../images/sinnoh/parralax/mountain.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#sky{
+    position: absolute;
+    z-index: 1;
+    background-image: url(../images/sinnoh/parralax/sky.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#arrow{
+    margin-top: 48%;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+}
+
+#arrow svg{
+    transition: transform .2s ease-in-out;
+}
+
+#arrow svg:hover{
+    transform: scaleX(1.25);
+}
+
+#navigation{
+    width: 80%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 3;
+}
+
+#hero{
+    width: 100%;
+    padding-top: 23%;
+    padding-left: 4vw;
+    position: absolute;
+    z-index: 3;
+}
+
+.sectionHeader{
+    width: 100%;
+    height: 8vh;
+    background-color: #DA1E42;
+    color: #F8F8F8;
+}
+
+.unown{
+    font-family: 'Unown';
+}
+
+h1{
+    font-size: 2vw;
+    margin-left: 4vw;
+}
+
+h2, h3{
+    font-size: 1.5vw;
+}
+
+h4{
+    margin-top: 24%;
+    font-size: 6vw;
+    margin-left: 4vw;
+}

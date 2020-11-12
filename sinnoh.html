@@ -1,334 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>
-            Sinnoh
-        </title>
-        <link type="text/css" href="css/home.css" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="fonts/font.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/c17a17debf.js" crossorigin="anonymous"></script>
+        <title>Corvilocity - Sinnoh</title>
+        <link type="text/css" rel="stylesheet" href="css/region.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Corvilocity - Pokemon Travel Website">
+        <meta name="keywords" content="Pokemon, Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar">
+        <meta name="author" content="Ana Nelson">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Replace this --> 
+        <link rel="icon" href="images/placeholder.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="fonts/font.css">
         <style>
-            #home_page{
-                background-image: url("images/mountain_web.jpg");
-                background-size: cover;
-            }
-
-            #title:hover{
-                color: rgb(255, 172, 197);
-            }
-
-            .nav_title:hover{
-                background-color: rgba(0, 27, 116, 0.16);
-            }
-
-            #media_box{
-                background-color: rgba(0, 27, 116, 0.16);
-            }
-
-            .fab:hover{
-                color: rgb(255, 172, 197);
-            }
-
-            #landing_footer{
-                background-image: linear-gradient(rgba(0, 27, 116, 0), rgba(0, 27, 116, 0.6));
-            }
-
-            footer{
-                background-color: rgb(255, 172, 197);
+            body{
+                width: 100vw - var(--scrollbar-width);
+                height: 100%;
             }
         </style>
     </head>
+
     <body>
-        <main id="home_page">
-            <!-- Page Navigation Bar -->
-            <div id="navigation">
-                <a href="corvilocity.html">
-                    <h2 id="title">Corvilocity</h2>
-                </a>
-                <div class="nav_title home"><h3>Home</h3></div>
-                <div class="nav_title visit"><h3>Visit</h3></div>
-                <div class="nav_title battle"><h3>Battle</h3></div>
-                <div class="nav_title pokemon"><h3>Pok&eacute;mon</h3></div>
+        <header id="landing">
+            <section id="navigation" data-depth="0.1">
+                <h1>Corvilocity</h1>
+                <h2 id="visitNav">Visit</h2>
+                <h2 id="battleNav">Battle</h2>
+                <h2 id="catchNav">Catch</h2>
+            </section>
 
-                <!-- Social Media Container -->
-                <div id="media_box">
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                </div>
-            </div>
-            <div id="landing_page">
-                <div id="landing_title" data-depth="0.2">
-                    <div>
-                        <h2>Travel to</h2>
-                    </div>
-                    <div>
-                        <h1>Sinnoh</h1>
-                    </div>
-                </div>
+            <section id="hero">
+                <h3 data-depth="0.2">Travel to</h3>
+                <h4 data-depth="0.2">Sinnoh</h4>
+            </section>
+
+            <div id="arrow">
+                <svg width="44" height="26" viewBox="0 0 44 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.5 3.75L22 22.25L40.5 3.75" stroke="#F8F8F8" stroke-width="4" stroke-linecap="square"/>
+                </svg>
             </div>
 
-            <div id="landing_footer">
-                <i class="fas fa-chevron-down"></i>
-            </div>
-
-        </main>
-
-        <div id="cities">
-            <div id="cities_header">
-                <img src="images/pokemoncenter.png" alt="Pokemon Center">
-                <h4>Visit...</h4>
-            </div>
-            <div class="city">
-                <div class="city_desc">
-                    <h5>Nuvema Town</h5>
-                    <br>
-                    <p>A rural town whose sea breezes give the sense of something coming.</p>
-                </div>
-                <img src="https://cdn.bulbagarden.net/upload/d/d2/Nuvema_Town_Spring_BW.png" alt="Nuvema Town">
-            </div>
-
-            <div class="city">
-                <div class="city_desc">
-                    <h5>Accumala Town</h5>
-                    <br>
-                    <p>This town offers great views due to its many hills.</p>
-                </div>
-                <img src="https://cdn.bulbagarden.net/upload/thumb/1/12/Accumula_Town_Spring_BW.png/677px-Accumula_Town_Spring_BW.png" alt="Accumala Town">
-            </div>
-
-            <div class="city">
-                <div class="city_desc">
-                    <h5>City Name</h5>
-                    <br>
-                    <p>City info</p>
-                </div>
-                <img src="" alt="image of (city) map">
-            </div>
-
-            <div class="city">
-                <div class="city_desc">
-                    <h5>City Name</h5>
-                    <br>
-                    <p>City info</p>
-                </div>
-                <img src="" alt="image of (city) map">
-            </div>
-
-            <div class="city">
-                <div class="city_desc">
-                    <h5>City Name</h5>
-                    <br>
-                    <p>City info</p>
-                </div>
-                <img src="" alt="image of (city) map">
-            </div>
-
-            <div class="city">
-                <div class="city_desc">
-                    <h5>City Name</h5>
-                    <br>
-                    <p>City info</p>
-                </div>
-                <img src="" alt="image of (city) map">
-            </div>
-
-            <div class="city">
-                <div class="city_desc">
-                    <h5>City Name</h5>
-                    <br>
-                    <p>City info</p>
-                </div>
-                <img src="" alt="image of (city) map">
-            </div>
-
-            <div class="city">
-                <div class="city_desc">
-                    <h5>City Name</h5>
-                    <br>
-                    <p>City info</p>
-                </div>
-                <img src="" alt="image of (city) map">
-            </div>
-
-            <div class="city">
-                <div class="city_desc">
-                    <h5>City Name</h5>
-                    <br>
-                    <p>City info</p>
-                </div>
-                <img src="" alt="image of (city) map">
-            </div>
-
-        </div>
-
-        <div id="pokemon">
-            <div id="pokemon_header">
-                <img src="images/pokeball.png">
-                <h4>Pok&eacute;mon</h4>
-            </div>
+            <div id="gradient"></div>
             
-            
-            <div id="poke_containers">
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Snivy</h5>
-                        <br>
-                        <p>Grass</p>
-                    </div>
-                    <a href="http://pokemondb.net/pokedex/snivy"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/snivy.gif" alt="Snivy"></a>
-                </div>
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Servine</h5>
-                        <br>
-                        <p>Grass</p>
-                    </div>
-                    <a href="http://pokemondb.net/pokedex/servine"><img src="https://img.pokemondb.net/sprites/black-white-2/anim/normal/servine.gif" alt="Servine"></a>
-                </div>
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Serperior</h5>
-                        <br>
-                        <p>Grass</p>
-                    </div>
-                    <a href="http://pokemondb.net/pokedex/serperior"><img src="https://img.pokemondb.net/sprites/black-white-2/anim/normal/serperior.gif" alt="Serperior"></a>
-                </div>
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Tepig</h5>
-                        <br>
-                        <p>Fire</p>
-                    </div>
-                    <a href="http://pokemondb.net/pokedex/tepig"><img src="https://img.pokemondb.net/sprites/black-white-2/anim/normal/tepig.gif" alt="Tepig"></a>
-                </div>
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Pignite</h5>
-                        <br>
-                        <p>Fire / Fighting</p>
-                    </div>
-                    <a href="http://pokemondb.net/pokedex/pignite"><img src="https://img.pokemondb.net/sprites/black-white-2/anim/normal/pignite.gif" alt="Pignite"></a>
-                </div>
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Emboar</h5>
-                        <br>
-                        <p>Fire / Fighting</p>
-                    </div>
-                    <a href="http://pokemondb.net/pokedex/emboar"><img src="https://img.pokemondb.net/sprites/black-white-2/anim/normal/emboar.gif" alt="Emboar"></a>
-                </div>
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Oshawatt</h5>
-                        <br>
-                        <p>Water</p>
-                    </div>
-                    <a href="http://pokemondb.net/pokedex/oshawott"><img src="https://img.pokemondb.net/sprites/black-white-2/anim/normal/oshawott.gif" alt="Oshawott"></a>
-                </div>
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Dewott</h5>
-                        <br>
-                        <p>Water</p>
-                    </div>
-                    <a href="http://pokemondb.net/pokedex/dewott"><img src="https://img.pokemondb.net/sprites/black-white-2/anim/normal/dewott.gif" alt="Dewott"></a>
-                </div>
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Samurott</h5>
-                        <br>
-                        <p>Water</p>
-                    </div>
-                    <a href="http://pokemondb.net/pokedex/samurott"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/samurott.gif" alt="Samurott"></a>
-                </div>
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Reshiram</h5>
-                        <br>
-                        <p>Fire / Dragon</p>
-                    </div>
-                    <img src="images/pokemon/reshiram.gif">
-                </div>
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Zekrom</h5>
-                        <br>
-                        <p>Electric / Dragon</p>
-                    </div>
-                    <img src="images/pokemon/zekrom.gif">
-                </div>
-
-                <div class="poke_desc">
-                    <div id="pokemon_name">
-                        <h5>Kyurem</h5>
-                        <br>
-                        <p>Ice / Dragon</p>
-                    </div>
-                    <a href="http://pokemondb.net/pokedex/kyurem"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/kyurem.gif" alt="Kyurem"></a>
-                </div>
-
+            <div id="parralax">
+                <div id="clouds" data-depth="0.4"></div>
+                <div id="mountain" data-depth="0.07"></div>
+                <div id="sky"></div>
             </div>
-        </div>
+        </header>
 
-        <div id="box_art">
-            <img src="" alt="box cover art for Pokemon Diamond">
-            <img src="" alt="box cover art for Pokemon Pearl">
-            <img src="" alt="box cover art for Pokemon Platinum">
-        </div>
+        <section id="visit">
+            <h3 class="sectionHeader"><span class="unown">VISIT</span>    Visit</h3>
+        </section>
         
+        <section id="battle">
+            <h3 class="sectionHeader"><span class="unown">BATTLE</span>    Battle</h3>
+        </section>
+
+        <section id="catch">
+            <h3 class="sectionHeader"><span class="unown">CATCH</span>    Catch</h3>
+        </section>
     </body>
-    
     
     <script src="javascript/parallax.js"></script>
     <script src="javascript/jQuery.js"></script>
     <script>
-        var scene = document.getElementById('landing_page');
-        var parallaxInstance = new Parallax(landing_page);
+        var scene = document.getElementById('hero');
+        var parallaxInstance = new Parallax(hero);
+
+        var scene = document.getElementById('parralax');
+        var parallaxInstance = new Parallax(parralax);
 
         // Arrow Down Button
         $(".fa-chevron-down").click(function() {
             $('html,body').animate({
-                scrollTop: $("#cities").offset().top}, 'slow'
+                scrollTop: $("#visitNav").offset().top}, 'slow'
             );
         });
 
         // Navigation Buttons
-        $(".home").click(function() {
+        $("#homeNav").click(function() {
             $('html,body').animate({
-                scrollTop: $("#home_page").offset().top}, 'slow'
+                scrollTop: $("header").offset().top}, 'slow'
             );
         });
 
-        $(".visit").click(function() {
+        $("#visitNav").click(function() {
             $('html,body').animate({
-                scrollTop: $("#cities").offset().top}, 'slow'
+                scrollTop: $("#visit").offset().top}, 'slow'
             );
         });
 
-        $(".battle").click(function() {
+        $("#battleNav").click(function() {
             $('html,body').animate({
-                scrollTop: $("#cities").offset().top}, 'slow'
+                scrollTop: $("#battle").offset().top}, 'slow'
             );
         });
 
-        $(".pokemon").click(function() {
+        $("#catchNav").click(function() {
             $('html,body').animate({
-                scrollTop: $("#pokemon").offset().top}, 'slow'
+                scrollTop: $("#catch").offset().top}, 'slow'
             );
         });
+
+        document.documentElement.style.setProperty('--scrollbar-width', (window.innerWidth - document.documentElement.clientWidth) + "px");
 
     </script>
 </html>

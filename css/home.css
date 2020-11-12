@@ -79,6 +79,8 @@ h1{
     z-index: 1;
     position: relative;
     background-size: cover;
+    transition: box-shadow .2s ease-in-out;
+    overflow: hidden;
 }
 
 .picOverlay{
@@ -99,16 +101,27 @@ h1{
 
 .blur{
     backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: 3;
+    transition: .2s ease-in-out;
+}
+
+.blur:hover{
+    backdrop-filter: blur(0);
+    -webkit-backdrop-filter: blur(0);
 }
 
 #kantoBox{
     background-image:url(../images/mount_fuji.jpg);
     background-position: right;
     border-color: #da1e41;
+}
+
+#kantoBox:hover{
+    box-shadow: 0 1vh 0 #da1e41;
 }
 
 #kantoOverlay{
@@ -121,6 +134,10 @@ h1{
     border-color: #da1e41;
 }
 
+#johtoBox:hover{
+    box-shadow: 0 1vh 0 #da1e41;
+}
+
 #johtoOverlay{
     background-color: #da1e41;
 }
@@ -129,6 +146,10 @@ h1{
     background-image: url(../images/lake.jpg);
     background-position: right;
     border-color: #F28705;
+}
+
+#hoennBox:hover{
+    box-shadow: 0 1vh 0 #F28705;
 }
 
 #hoennOverlay{
@@ -141,6 +162,10 @@ h1{
     border-color: #F28705;
 }
 
+#sinnohBox:hover{
+    box-shadow: 0 1vh 0 #F28705;
+}
+
 #sinnohOverlay{
     background-color: #F28705;
 }
@@ -151,6 +176,10 @@ h1{
     border-color: #5DA776;
 }
 
+#unovaBox:hover{
+    box-shadow: 0 1vh 0 #5DA776;
+}
+
 #unovaOverlay{
     background-color: #5DA776;
 }
@@ -158,6 +187,10 @@ h1{
 #kalosBox{
     background-image: url(../images/french_street.jpg);
     border-color: #5DA776;
+}
+
+#kalosBox:hover{
+    box-shadow: 0 1vh 0 #5DA776;
 }
 
 #kalosOverlay{
@@ -170,6 +203,10 @@ h1{
     position: right;
 }
 
+#alolaBox:hover{
+    box-shadow: 0 1vh 0 #0367A5;
+}
+
 #alolaOverlay{
     background-color: #0367A5;
 }
@@ -177,6 +214,10 @@ h1{
 #galarBox{
     background-image: url(../images/field.jpg);
     border-color: #0367A5;
+}
+
+#galarBox:hover{
+    box-shadow: 0 1vh 0 #0367A5;
 }
 
 #galarOverlay{

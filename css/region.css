@@ -34,7 +34,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 }
 
 body{
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     background-size: cover;
     position: relative;
     letter-spacing: 0.06em;
